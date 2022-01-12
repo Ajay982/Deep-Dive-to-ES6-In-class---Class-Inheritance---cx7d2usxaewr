@@ -2,7 +2,7 @@
 
 // export class using module.exports
 module.exports= class Shape{
-    constructor(color="red){
+    constructor(color){
         this.color =color;
     }
     drawShape(){
