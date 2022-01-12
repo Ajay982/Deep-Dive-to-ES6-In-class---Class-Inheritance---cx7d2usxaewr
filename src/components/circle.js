@@ -6,7 +6,7 @@
 // export class using module.exports
 const Shape = require('./shape.js');
  module.export=class Circle extends Shape{
-    constructor(color,radius){
+    constructor(color="blue",radius=7){
         super(color)
         this.radius =radius;
     }
@@ -15,3 +15,4 @@ const Shape = require('./shape.js');
         return pi*radius*radius;
     }
 }
+ 
